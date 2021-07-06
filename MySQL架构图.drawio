@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T10:03:55.982Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="GSo_ksYy8oTeVbd9PjAg" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-06T10:09:17.623Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="osYHzRxqHGmlHCwRhLbI" version="14.2.7" type="github">
   <diagram id="3d2MYOL8zR_ViiIpR0bZ" name="Page-1">
     <mxGraphModel dx="2253" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -958,6 +958,9 @@
           <mxGeometry x="-0.1714" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-277" value="&lt;p style=&quot;font-size: 10px ; line-height: 1.74 ; letter-spacing: 0.008em ; outline-style: none ; overflow-wrap: break-word ; margin: 0px&quot;&gt;&lt;b&gt;&lt;span class=&quot;lake-fontsize-12&quot; style=&quot;color: red ; font-size: 10px&quot;&gt;重点：不论我们怎么对页中的记录做增删改操作，InnoDB始终会维护一条记录的单链表，链表中的各个节点是按照主键值由小到大的顺序连接起来的&lt;/span&gt;&lt;span class=&quot;lake-fontsize-12&quot; style=&quot;color: rgb(34 , 45 , 51) ; font-size: 10px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;lake-fontsize-12&quot; style=&quot;font-size: 10px&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;，如果删除会组织成垃圾链表以备存储空间使用&lt;/font&gt;&lt;/span&gt;&lt;span class=&quot;lake-fontsize-12&quot; style=&quot;color: rgb(34 , 45 , 51) ; font-size: 10px&quot;&gt;。&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;blockquote style=&quot;margin-top: 5px ; margin-bottom: 5px ; padding-left: 1em ; margin-left: 0px ; border-left: 3px solid rgb(238 , 238 , 238) ; opacity: 0.6&quot;&gt;&lt;p style=&quot;font-size: 15px ; color: rgb(64 , 64 , 64) ; line-height: 1.74 ; letter-spacing: 0.008em ; outline-style: none ; overflow-wrap: break-word ; margin: 0px&quot;&gt;&lt;/p&gt;&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="734.5" y="1064" width="325" height="22" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
