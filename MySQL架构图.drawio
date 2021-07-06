@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T10:31:03.372Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="FJSwLvwX1JSMQz0hlIeH" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-06T11:14:28.796Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="o9fy_1NtZpg6ChU1OA7h" version="14.2.7" type="github">
   <diagram id="3d2MYOL8zR_ViiIpR0bZ" name="Page-1">
     <mxGraphModel dx="2253" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1036,6 +1036,12 @@
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-299" value="&lt;font style=&quot;font-size: 6px&quot;&gt;DB_ROW_ID&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="1000" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-300" value="具体列" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="-205" y="999.5" width="70" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-301" value="..." style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="-135" y="998.5" width="70" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
