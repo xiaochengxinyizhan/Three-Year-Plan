@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T12:07:48.622Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="XcZflgMFjyjzS3iwMtSg" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-06T12:11:16.283Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="kVWTE_8CDyPwaKzC_DaL" version="14.2.7" type="github">
   <diagram id="3d2MYOL8zR_ViiIpR0bZ" name="Page-1">
     <mxGraphModel dx="3080" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1427,6 +1427,9 @@
               <mxPoint x="-470" y="1490" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-414" value="&lt;font style=&quot;font-size: 10px&quot; color=&quot;#ff0000&quot;&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;重点：&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(255 , 255 , 255) ; font-size: 10px&quot;&gt;record&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(255 , 255 , 255) ; font-size: 10px&quot;&gt;_&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(255 , 255 , 255) ; font-size: 10px&quot;&gt;type&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(255 , 255 , 255) ; font-size: 10px&quot;&gt;&amp;nbsp;这个属性表示当前记录的类型，一共有4种类型的记录， 0 表示普通记录， 1 表示B+树非叶节点记录，&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(255 , 255 , 255) ; font-size: 10px&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(255 , 255 , 255) ; font-size: 10px&quot;&gt;&amp;nbsp;表示最小记录，&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(255 , 255 , 255) ; font-size: 10px&quot;&gt;3&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(255 , 255 , 255) ; font-size: 10px&quot;&gt;&amp;nbsp;表示最大记录&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="1477.5" width="460" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
