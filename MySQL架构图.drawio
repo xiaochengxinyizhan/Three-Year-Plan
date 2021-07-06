@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T09:35:51.021Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="8Ovo5TeEZGiBBkZAisda" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-06T09:38:50.156Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="l91NmzVNL4OACu8_XJUo" version="14.2.7" type="github">
   <diagram id="3d2MYOL8zR_ViiIpR0bZ" name="Page-1">
     <mxGraphModel dx="2253" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="brHE4YqnveVC_KoyLmaR-195" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="960" width="770" height="780" as="geometry" />
+          <mxGeometry x="1130" y="960" width="770" height="750" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-65" value="磁盘" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-280" y="960" width="1320" height="960" as="geometry" />
@@ -879,6 +879,9 @@
           <mxGeometry x="0.0472" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-252" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;重点：存储引擎提交事务的时候，一定会把 redo log 刷入磁盘，binlog 刷入磁盘，完成 redo log 中的事务 commit 标记；最后后台的 IO 线程会随机的把 buffer pool 里的脏数据刷入磁盘里去。&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="1670" width="720" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
