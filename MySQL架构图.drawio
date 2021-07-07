@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T06:11:44.839Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="UTSrhBWwxNaNh8SAJe32" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-07T06:19:29.442Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="c92JHSIf3355Hucmiw7x" version="14.2.7" type="github">
   <diagram id="3d2MYOL8zR_ViiIpR0bZ" name="Page-1">
     <mxGraphModel dx="3080" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -113,7 +113,7 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-23" value="复制模块（rep）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="170" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-24" value="查询优化器（select）&lt;br&gt;(判断最小成本的执行计划)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-24" value="查询优化器（select）&lt;br&gt;(判断最小成本的执行计划：扫描行数判断、临时表、是否排序等因素考察)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="300" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-25" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
