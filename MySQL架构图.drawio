@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T09:43:04.688Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="DAR7udMR1hZ_HQoh5Zak" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-07T09:50:47.193Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="MawLg-ZvEl6Y9n7xUrES" version="14.2.7" type="github">
   <diagram id="3d2MYOL8zR_ViiIpR0bZ" name="Page-1">
     <mxGraphModel dx="3080" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1535,13 +1535,13 @@
           <mxGeometry x="1235" y="1310" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-440" value="flush链表&lt;br&gt;（刷脏数据到磁盘）" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=0;strokeColor=#FFB570;strokeWidth=2;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="409" y="455" width="122" height="35" as="geometry" />
+          <mxGeometry x="409" y="455" width="231" height="35" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-441" value="free链表&lt;br&gt;（加载数据到磁盘）" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=0;strokeColor=#FFB570;strokeWidth=2;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="409" y="502.5" width="122" height="35" as="geometry" />
+          <mxGeometry x="409" y="502.5" width="231" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-442" value="特殊LRU链表&lt;br&gt;（防止预读和全表扫描，清理数据）" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=0;strokeColor=#FFB570;strokeWidth=2;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="409" y="550" width="122" height="35" as="geometry" />
+        <mxCell id="brHE4YqnveVC_KoyLmaR-442" value="特殊LRU链表（冷热数据分开，冷数据占比37%）&lt;br&gt;（防止预读和全表扫描，清理数据）" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=0;strokeColor=#FFB570;strokeWidth=2;fillColor=#D4E1F5;" vertex="1" parent="1">
+          <mxGeometry x="409" y="550" width="231" height="35" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-443" value="" style="endArrow=classic;html=1;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-440">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1559,6 +1559,36 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="419" y="530" as="sourcePoint" />
             <mxPoint x="360" y="528.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-446" value="&lt;b&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;后台IO线程&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;sketch=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="730" y="432.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-447" value="" style="endArrow=classic;html=1;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-440" target="brHE4YqnveVC_KoyLmaR-446">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="610" as="sourcePoint" />
+            <mxPoint x="820" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-448" value="" style="endArrow=classic;html=1;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-442" target="brHE4YqnveVC_KoyLmaR-446">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="610" as="sourcePoint" />
+            <mxPoint x="790" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-449" value="" style="endArrow=classic;html=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-446" target="brHE4YqnveVC_KoyLmaR-157">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="630" as="sourcePoint" />
+            <mxPoint x="850" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="790" y="730" />
+              <mxPoint x="976" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-450" value="释放缓存页空间，刷入磁盘" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="brHE4YqnveVC_KoyLmaR-449">
+          <mxGeometry x="-0.1208" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
