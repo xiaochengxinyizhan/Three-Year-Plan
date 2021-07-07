@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T05:18:20.655Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="8stANFXtnmOQKHTgirRv" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-07T05:56:50.555Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="C-usSLa4sgrvI1wt9Xin" version="14.2.7" type="github">
   <diagram id="3d2MYOL8zR_ViiIpR0bZ" name="Page-1">
     <mxGraphModel dx="3080" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="brHE4YqnveVC_KoyLmaR-65" value="磁盘" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-65" value="磁盘" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="-1070" y="960" width="2110" height="960" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-404" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-404" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
           <mxGeometry x="-827" y="1516" width="307" height="384" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-359" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-359" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-1040" y="1530" width="165" height="290" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-368" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
@@ -25,19 +25,19 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-276" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="240" y="973" width="490" height="227" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-195" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;dashed=1;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-195" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;dashed=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1130" y="960" width="770" height="710" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-172" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="1210" width="340" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-150" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-150" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-235" y="1120" width="165" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;" vertex="1" parent="1">
           <mxGeometry x="40" y="420" width="1000" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=center;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
           <mxGeometry x="90" y="450" width="270" height="190" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-49" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -105,13 +105,13 @@
           <mxGeometry x="90" y="30" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-21" value="表变更模块（DML）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="95" width="270" height="50" as="geometry" />
+          <mxGeometry x="90" y="240" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-22" value="表维护模块（DDL）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="160" width="270" height="50" as="geometry" />
+          <mxGeometry x="90" y="100" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-23" value="复制模块（rep）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="230" width="270" height="50" as="geometry" />
+          <mxGeometry x="90" y="170" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-24" value="查询优化器（select）&lt;br&gt;(判断最小成本的执行计划)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="300" width="270" height="50" as="geometry" />
@@ -120,24 +120,23 @@
           <mxGeometry x="-20" y="50" width="90" height="280" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-26" value="执行器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="30" width="140" height="325" as="geometry" />
-        </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-27" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-24">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="320" as="sourcePoint" />
-            <mxPoint x="529" y="325" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="530" y="190" width="140" height="165" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-28" value="存储引擎&lt;br&gt;（插件架构）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="827" y="30" width="140" height="325" as="geometry" />
+          <mxGeometry x="827" y="190" width="140" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-29" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.926;exitDx=0;exitDy=0;entryX=0.007;entryY=0.925;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-26" target="brHE4YqnveVC_KoyLmaR-28">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-29" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-26" target="brHE4YqnveVC_KoyLmaR-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="670" y="324.5" as="sourcePoint" />
             <mxPoint x="810" y="325" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-30" value="InnoDB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-432" value="1)prepare redo log&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="brHE4YqnveVC_KoyLmaR-29">
+          <mxGeometry x="-0.1518" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-30" value="InnoDB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;" vertex="1" parent="1">
           <mxGeometry x="858.5" y="210" width="77" height="40" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-31" value="MyISAM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -149,10 +148,14 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-34" value="内核空间&lt;br&gt;(OS Cache)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-280" y="415" width="280" height="485" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-36" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-36" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.95;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-30" target="brHE4YqnveVC_KoyLmaR-35">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="900" y="355" as="sourcePoint" />
             <mxPoint x="900" y="419" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="990" y="230" />
+              <mxPoint x="990" y="370" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-40" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="brHE4YqnveVC_KoyLmaR-39">
@@ -214,13 +217,13 @@
             <mxPoint x="230" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-60" value="5、将本次事务修改redo log" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="brHE4YqnveVC_KoyLmaR-59">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-60" value="5、将本次事务修改redo log,处于prepare状态，告知执行器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="brHE4YqnveVC_KoyLmaR-59">
           <mxGeometry x="-0.2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="15" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-61" value="6、刷入binlog日志文件" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="740" width="90" height="40" as="geometry" />
+        <mxCell id="brHE4YqnveVC_KoyLmaR-61" value="6、写binlog日志文件" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="115" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-62" value="Kernel Space" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-180" y="395" width="90" height="20" as="geometry" />
@@ -253,7 +256,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-74" value="undo log版本链管理" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-74" value="undo log版本链管理" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;shadow=0;fillColor=#ffcc99;strokeColor=#FFB570;" vertex="1" parent="1">
           <mxGeometry x="90" y="740" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-75" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-50" target="brHE4YqnveVC_KoyLmaR-74">
@@ -262,21 +265,17 @@
             <mxPoint x="60" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-80" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-51" target="brHE4YqnveVC_KoyLmaR-61">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="145" y="730" as="sourcePoint" />
-            <mxPoint x="145" y="750" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-81" value="sync_binlog" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=1;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="800" width="50" height="50" as="geometry" />
+          <mxGeometry x="850" y="110" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-82" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-81">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-82" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-81" target="brHE4YqnveVC_KoyLmaR-65">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="990" as="sourcePoint" />
             <mxPoint x="295" y="960" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="295" y="930" />
+              <mxPoint x="1090" y="135" />
+              <mxPoint x="1090" y="940" />
+              <mxPoint x="1090" y="980" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -285,11 +284,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-84" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.996;entryY=0.854;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-81" target="brHE4YqnveVC_KoyLmaR-34">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-84" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-81" target="brHE4YqnveVC_KoyLmaR-34">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="830" as="sourcePoint" />
             <mxPoint x="95" y="790" as="targetPoint" />
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="1060" y="160" />
+              <mxPoint x="1060" y="400" />
+              <mxPoint x="-70" y="390" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-88" value="写入os cache(sync_binlog=0)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="brHE4YqnveVC_KoyLmaR-84">
@@ -297,10 +300,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-89" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-61" target="brHE4YqnveVC_KoyLmaR-81">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-89" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-61" target="brHE4YqnveVC_KoyLmaR-81">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="305" y="730" as="sourcePoint" />
-            <mxPoint x="305" y="750" as="targetPoint" />
+            <mxPoint x="850" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-94" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;dashed=1;" vertex="1" parent="1">
@@ -405,31 +408,31 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-119" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-119" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="-245" y="1640" width="620" height="250" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-120" value="user表空间(.ibd文件)&lt;br&gt;每一个表在5.6.6版本以后都会单独维护一个独立的表空间.ibd文件，之前版本是系统表空间除此之外还有其他表空间比如" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="-115" y="1650" width="340" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-125" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-125" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-215" y="1710" width="260" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-126" value="多个数据区组...." style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-126" value="多个数据区组...." style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="85" y="1710" width="260" height="170" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-127" value="数据区组(含256个数据区)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="-165" y="1710" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-128" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-128" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-200" y="1750" width="100" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-129" value="其余255个数据区" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-129" value="其余255个数据区" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-75" y="1750" width="100" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-130" value="数据页" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-130" value="数据页" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-185" y="1760" width="70" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-131" value="数据页" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-131" value="数据页" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-182.5" y="1800" width="70" height="25" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-132" value="数据区(64*16KB=1M)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
@@ -447,7 +450,7 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-136" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="-225" y="1230" width="145" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-137" value="一行数据" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-137" value="一行数据" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-215" y="1245" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-138" value="空闲区" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
@@ -506,10 +509,10 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-153" value="undo log日志行构成的链式结构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="390" y="960" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-155" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-155" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;fillColor=#ffcc99;strokeColor=#FFCE9F;" vertex="1" parent="1">
           <mxGeometry x="859" y="980" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-156" value="每行日志" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-156" value="每行日志" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="880.5" y="1000" width="77" height="30" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-157" value="undo log日志文件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
@@ -657,7 +660,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-197" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-197" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1220" y="980" width="165" height="290" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-198" value="文件头部(占58个字节）" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
@@ -669,7 +672,7 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-200" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="1230" y="1090" width="145" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-201" value="一行数据" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-201" value="一行数据" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1240" y="1105" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-202" value="空闲区" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
@@ -681,7 +684,7 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-204" value="文件尾部(占8字节)" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="1230" y="1230" width="145" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-205" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-205" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1580" y="980" width="165" height="290" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-206" value="文件头部(占58个字节）" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
@@ -693,7 +696,7 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-208" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="1590" y="1090" width="145" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-209" value="一行数据" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-209" value="一行数据" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1600" y="1105" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-210" value="空闲区" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
@@ -705,7 +708,7 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-212" value="文件尾部(占8字节)" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="1590" y="1230" width="145" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-213" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.655;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-125" target="brHE4YqnveVC_KoyLmaR-197">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-213" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.655;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFB570;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-125" target="brHE4YqnveVC_KoyLmaR-197">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-130" y="1960" as="sourcePoint" />
             <mxPoint x="1280" y="1950" as="targetPoint" />
@@ -721,7 +724,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-215" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-216" target="brHE4YqnveVC_KoyLmaR-201">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-215" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FFB570;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-216" target="brHE4YqnveVC_KoyLmaR-201">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1360" y="1150" as="sourcePoint" />
             <mxPoint x="1410" y="1100" as="targetPoint" />
@@ -733,7 +736,7 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-216" value="2、加独占锁(保证并发时候数据安全)" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=1;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="1430" y="1025" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-217" value="3、将更新前数据写入undo log中" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-201" target="brHE4YqnveVC_KoyLmaR-155">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-217" value="3、将更新前数据写入undo log中" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFB570;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-201" target="brHE4YqnveVC_KoyLmaR-155">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1080" y="1100" as="sourcePoint" />
             <mxPoint x="1130" y="1050" as="targetPoint" />
@@ -743,7 +746,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-218" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.018;exitY=0.666;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-197" target="brHE4YqnveVC_KoyLmaR-209">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-218" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.018;exitY=0.666;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FFB570;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-197" target="brHE4YqnveVC_KoyLmaR-209">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1430" y="1210" as="sourcePoint" />
             <mxPoint x="1480" y="1160" as="targetPoint" />
@@ -776,7 +779,7 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-226" value="redo log buffer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="1430" y="1300" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-227" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-209" target="brHE4YqnveVC_KoyLmaR-221">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-227" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFB570;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-209" target="brHE4YqnveVC_KoyLmaR-221">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1790" y="1160" as="sourcePoint" />
             <mxPoint x="1840" y="1110" as="targetPoint" />
@@ -831,7 +834,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-240" value="7、prepare提交事务redo log到磁盘" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-221" target="brHE4YqnveVC_KoyLmaR-166">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-240" value="7、prepare提交事务redo log到磁盘" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFB570;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-221" target="brHE4YqnveVC_KoyLmaR-166">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1000" y="1390" as="sourcePoint" />
             <mxPoint x="1050" y="1340" as="targetPoint" />
@@ -841,7 +844,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-241" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-221" target="brHE4YqnveVC_KoyLmaR-71">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-241" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;strokeColor=#FFB570;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-221" target="brHE4YqnveVC_KoyLmaR-71">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1130" y="1490" as="sourcePoint" />
             <mxPoint x="1050" y="1460" as="targetPoint" />
@@ -854,7 +857,7 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-243" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;8、prepare提交事务binlog到磁盘&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="1050" y="1470" width="260" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-244" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-221" target="brHE4YqnveVC_KoyLmaR-166">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-244" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=#FFB570;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-221" target="brHE4YqnveVC_KoyLmaR-166">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1090" y="1430" as="sourcePoint" />
             <mxPoint x="1140" y="1380" as="targetPoint" />
@@ -878,7 +881,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-250" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.001;entryY=0.894;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-248" target="brHE4YqnveVC_KoyLmaR-65">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-250" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.001;entryY=0.894;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFB570;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-248" target="brHE4YqnveVC_KoyLmaR-65">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2120" y="1170" as="sourcePoint" />
             <mxPoint x="1080" y="1850" as="targetPoint" />
@@ -971,7 +974,7 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-277" value="&lt;p style=&quot;font-size: 10px ; line-height: 1.74 ; letter-spacing: 0.008em ; outline-style: none ; overflow-wrap: break-word ; margin: 0px&quot;&gt;&lt;b&gt;&lt;span class=&quot;lake-fontsize-12&quot; style=&quot;color: red ; font-size: 10px&quot;&gt;重点：不论我们怎么对页中的记录做增删改操作，InnoDB始终会维护一条记录的单链表，链表中的各个节点是按照主键值由小到大的顺序连接起来的&lt;/span&gt;&lt;span class=&quot;lake-fontsize-12&quot; style=&quot;color: rgb(34 , 45 , 51) ; font-size: 10px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;lake-fontsize-12&quot; style=&quot;font-size: 10px&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;，如果删除会组织成垃圾链表以备存储空间使用&lt;/font&gt;&lt;/span&gt;&lt;span class=&quot;lake-fontsize-12&quot; style=&quot;color: rgb(34 , 45 , 51) ; font-size: 10px&quot;&gt;。&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;blockquote style=&quot;margin-top: 5px ; margin-bottom: 5px ; padding-left: 1em ; margin-left: 0px ; border-left: 3px solid rgb(238 , 238 , 238) ; opacity: 0.6&quot;&gt;&lt;p style=&quot;font-size: 15px ; color: rgb(64 , 64 , 64) ; line-height: 1.74 ; letter-spacing: 0.008em ; outline-style: none ; overflow-wrap: break-word ; margin: 0px&quot;&gt;&lt;/p&gt;&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="734.5" y="1064" width="325" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-278" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-278" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-496" y="1120" width="165" height="290" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-279" value="文件头部(占58个字节）" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
@@ -986,7 +989,7 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-282" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="-486" y="1230" width="145" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-283" value="一行数据" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-283" value="一行数据" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-476" y="1245" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-284" value="空闲区" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
@@ -1019,7 +1022,7 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-291" value="&lt;font style=&quot;font-size: 10px&quot; color=&quot;#ff0000&quot;&gt;&lt;b&gt;重点：&lt;span style=&quot;letter-spacing: 0.008em&quot;&gt;每个数据页的&lt;/span&gt;&lt;code style=&quot;letter-spacing: 0.008em ; background-color: rgba(0 , 0 , 0 , 0.06) ; padding: 0px 2px ; border: 1px solid rgba(0 , 0 , 0 , 0.08) ; border-radius: 2px ; line-height: inherit ; overflow-wrap: break-word&quot;&gt;File Header&lt;/code&gt;&lt;span style=&quot;letter-spacing: 0.008em&quot;&gt; 部分都有上一个和下一个页的编号，所以所有的数据页会组成一个&lt;/span&gt;&lt;code style=&quot;letter-spacing: 0.008em ; background-color: rgba(0 , 0 , 0 , 0.06) ; padding: 0px 2px ; border: 1px solid rgba(0 , 0 , 0 , 0.08) ; border-radius: 2px ; line-height: inherit ; overflow-wrap: break-word&quot;&gt;双链表&lt;/code&gt;&lt;span style=&quot;letter-spacing: 0.008em&quot;&gt; 。&lt;/span&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;p style=&quot;line-height: 1.74 ; letter-spacing: 0.008em ; outline-style: none ; overflow-wrap: break-word ; margin: 0px ; font-size: 10px&quot;&gt;&lt;font style=&quot;font-size: 10px&quot; color=&quot;#ff0000&quot;&gt;&lt;b&gt;为保证从内存中同步到磁盘的页的完整性，在页的首部和尾部都会存储页中数据的校验和和页面最后修改时对应的&lt;code style=&quot;background-color: rgba(0 , 0 , 0 , 0.06) ; padding: 0px 2px ; border: 1px solid rgba(0 , 0 , 0 , 0.08) ; border-radius: 2px ; line-height: inherit ; overflow-wrap: break-word ; font-size: 10px&quot;&gt;LSN&lt;/code&gt; 值，如果首部和尾部的校验和和&lt;code style=&quot;background-color: rgba(0 , 0 , 0 , 0.06) ; padding: 0px 2px ; border: 1px solid rgba(0 , 0 , 0 , 0.08) ; border-radius: 2px ; line-height: inherit ; overflow-wrap: break-word ; font-size: 10px&quot;&gt;LSN&lt;/code&gt; 值校验不成功的话，就说明同步过程出现了问题。&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="-540" y="1450" width="646" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-292" value="其余62个数据页" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-292" value="其余62个数据页" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-185" y="1840" width="70" height="25" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-293" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.467;exitY=1.014;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-278" target="brHE4YqnveVC_KoyLmaR-131">
@@ -1034,7 +1037,7 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-294" value="&lt;font style=&quot;font-size: 10px&quot; color=&quot;#ff0000&quot;&gt;&lt;b&gt;重点：4种行格式，Compact、Redundant、Dynamic、Compressed，默认Compact。&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;一个页一般是&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;code style=&quot;background-color: rgba(0 , 0 , 0 , 0.06) ; padding: 0px 2px ; border: 1px solid rgba(0 , 0 , 0 , 0.08) ; border-radius: 2px ; line-height: inherit ; overflow-wrap: break-word ; font-size: 10px&quot;&gt;16KB&lt;/code&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt; ，当记录中的数据太多，当前页放不下的时候，会把多余的数据存储到其他页中，这种现象称为&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;code style=&quot;background-color: rgba(0 , 0 , 0 , 0.06) ; padding: 0px 2px ; border: 1px solid rgba(0 , 0 , 0 , 0.08) ; border-radius: 2px ; line-height: inherit ; overflow-wrap: break-word ; font-size: 10px&quot;&gt;行溢出&lt;/code&gt;&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="-1070" y="1006.5" width="500" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-295" value="DB_TRX_ID" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-295" value="DB_TRX_ID" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" vertex="1" parent="1">
           <mxGeometry x="-65" y="1000" width="70" height="25" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-297" value="&lt;font style=&quot;font-size: 6px&quot;&gt;DB_ROLL_PTR&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
@@ -1157,7 +1160,7 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-332" value="&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;重点：数据页目录在查找数据页指定主键的步骤：&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;span class=&quot;lake-fontsize-12&quot; style=&quot;font-size: 10px&quot;&gt;通过二分法确定该记录所在的槽，并找到该槽中主键值最小的那条记录&lt;/span&gt; 。&lt;/font&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;通过记录的&lt;/span&gt;&lt;code style=&quot;font-size: 10px ; background-color: rgba(0 , 0 , 0 , 0.06) ; padding: 0px 2px ; border: 1px solid rgba(0 , 0 , 0 , 0.08) ; border-radius: 2px ; line-height: inherit ; overflow-wrap: break-word&quot;&gt;next_record&lt;/code&gt;&lt;span style=&quot;font-size: 10px&quot;&gt; 属性遍历该槽所在的组中的各个记录&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="-541" y="1500" width="676" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-333" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-333" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-780" y="1115" width="165" height="290" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-334" value="文件头部(占58个字节）" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
@@ -1172,7 +1175,7 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-337" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="-770" y="1230" width="145" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-338" value="一行数据" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-338" value="一行数据" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-760" y="1245" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-339" value="空闲区" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
@@ -1184,7 +1187,7 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-341" value="文件尾部(占8字节)" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="-770" y="1370" width="145" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-342" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-342" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-1040" y="1110" width="165" height="290" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-343" value="文件头部(占58个字节）" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
@@ -1199,7 +1202,7 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-346" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="-1030" y="1220" width="145" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-347" value="一行数据" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-347" value="一行数据" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-1020" y="1235" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-348" value="空闲区" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
@@ -1256,7 +1259,7 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-362" value="最大和最小记录(占26字节)" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="-1030" y="1610" width="145" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-363" value="目录项纪录" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-363" value="目录项纪录" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
           <mxGeometry x="-1020" y="1655" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-364" value="空闲区" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
@@ -1425,7 +1428,7 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-416" value="&lt;span style=&quot;font-size: 15px ; color: rgb(64 , 64 , 64) ; line-height: 1.74 ; letter-spacing: 0.008em ; outline-style: none ; overflow-wrap: break-word&quot;&gt;information_schema&lt;br&gt;innodb_trx&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="819.5" y="1630.75" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-417" value="trx_id" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-417" value="trx_id" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" vertex="1" parent="1">
           <mxGeometry x="819.5" y="1691.5" width="180" height="34.25" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-418" value="trx_mysql_thread_id" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;" vertex="1" parent="1">
@@ -1445,9 +1448,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-420" value="dict_sys.row_id&lt;br&gt;全局属性" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;shadow=0;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="898.5" y="800" width="120" height="80" as="geometry" />
+          <mxGeometry x="819.5" y="800" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-421" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-209" target="brHE4YqnveVC_KoyLmaR-420">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-421" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;strokeColor=#FFB570;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-209" target="brHE4YqnveVC_KoyLmaR-420">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1250" y="860" as="sourcePoint" />
             <mxPoint x="1300" y="810" as="targetPoint" />
@@ -1462,7 +1465,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-423" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-209" target="brHE4YqnveVC_KoyLmaR-417">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-423" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;strokeColor=#FFB570;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-209" target="brHE4YqnveVC_KoyLmaR-417">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1440" y="1260" as="sourcePoint" />
             <mxPoint x="1490" y="1210" as="targetPoint" />
@@ -1474,6 +1477,48 @@
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-424" value="5、为每行数据事务操作获取事务id并修改表中trx_id+1，现实情况是至少加2，因为比如标记删除旧数据等需要放入purge队列等待后续删除" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="brHE4YqnveVC_KoyLmaR-423">
           <mxGeometry x="0.2986" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-425" value="存储引擎" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="869" y="170" width="59" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-427" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.158;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-26" target="brHE4YqnveVC_KoyLmaR-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="280" as="sourcePoint" />
+            <mxPoint x="720" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="745" y="216" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-433" value="2)prepare binlog 到磁盘" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="brHE4YqnveVC_KoyLmaR-427">
+          <mxGeometry x="-0.7693" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-429" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;sketch=0;strokeWidth=2;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="365" y="240" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-430" value="" style="endArrow=classic;html=1;strokeColor=#000000;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-429">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="310" as="sourcePoint" />
+            <mxPoint x="530" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-431" value="2PC协议" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="brHE4YqnveVC_KoyLmaR-430">
+          <mxGeometry x="-0.0204" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-434" value="" style="endArrow=classic;html=1;strokeColor=#000000;exitX=1;exitY=0.37;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-26" target="brHE4YqnveVC_KoyLmaR-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="340" as="sourcePoint" />
+            <mxPoint x="730" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-435" value="3)commit事务&amp;amp;标记 redo log" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="brHE4YqnveVC_KoyLmaR-434">
+          <mxGeometry x="-0.5544" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
