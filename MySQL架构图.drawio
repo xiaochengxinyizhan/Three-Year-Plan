@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T15:22:27.974Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="JZumFd6dBJwdgYOfacK8" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-07T15:30:06.318Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="fahuCpqxiDT0LDP5DKi5" version="14.2.7" type="github">
   <diagram id="3d2MYOL8zR_ViiIpR0bZ" name="Page-1">
-    <mxGraphModel dx="2600" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4357" dy="2923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="brHE4YqnveVC_KoyLmaR-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-33" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-270" y="-320" width="1310" height="700" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-474" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;strokeColor=#FFB570;strokeWidth=2;fillColor=#D4E1F5;" vertex="1" parent="1">
           <mxGeometry x="720" y="-310" width="310" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-65" value="磁盘" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-65" value="磁盘" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-1070" y="960" width="2110" height="960" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-404" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
@@ -148,7 +148,7 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-32" value="Memory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="858.5" y="310" width="77" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-34" value="内核空间&lt;br&gt;(OS Cache)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-34" value="内核空间&lt;br&gt;(OS Cache)" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-280" y="415" width="280" height="485" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-36" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.95;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-30" target="brHE4YqnveVC_KoyLmaR-35">
@@ -1594,8 +1594,8 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-451" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1205" y="-320" width="1310" height="700" as="geometry" />
+        <mxCell id="brHE4YqnveVC_KoyLmaR-451" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="-320" width="1145" height="700" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-452" value="连接器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1295" y="-300" width="140" height="180" as="geometry" />
@@ -1653,13 +1653,13 @@
           <mxGeometry x="1305" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-465" value="复制模块（rep）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1565" y="170" width="270" height="50" as="geometry" />
+          <mxGeometry x="1530" y="290" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-466" value="执行器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2005" y="190" width="140" height="165" as="geometry" />
+          <mxGeometry x="1920" y="190" width="140" height="165" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-467" value="mysql.conf从库配置" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;shadow=1;sketch=0;strokeColor=#FFB570;strokeWidth=2;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="-10" width="120" height="80" as="geometry" />
+          <mxGeometry x="2190" y="-290" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-468" value="" style="endArrow=classic;html=1;strokeColor=#000000;exitX=0.47;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.885;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-475" target="brHE4YqnveVC_KoyLmaR-33">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1722,6 +1722,42 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-10" y="-230" as="sourcePoint" />
             <mxPoint x="40" y="-280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-479" value="存储引擎" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="190" width="140" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-480" value="InnoDB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="2181.5" y="220" width="77" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-483" value="" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-466" target="brHE4YqnveVC_KoyLmaR-479">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2060" y="90" as="sourcePoint" />
+            <mxPoint x="2110" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-484" value="" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.113;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-479" target="brHE4YqnveVC_KoyLmaR-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1500" y="610" as="sourcePoint" />
+            <mxPoint x="1550" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2220" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-485" value="查询优化器（select）&lt;br&gt;(判断最小成本的执行计划：扫描行数判断、临时表、是否排序等因素考察)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1527.5" y="215" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-486" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1437.5" y="230" width="90" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-487" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;sketch=1;strokeWidth=2;fillColor=#D4E1F5;rotation=-179;strokeColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="222.5" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-488" value="" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-487">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1790" y="130" as="sourcePoint" />
+            <mxPoint x="1930" y="283" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
