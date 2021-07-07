@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T06:06:44.272Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="6uO2r63yKNOOpItD42tD" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-07T06:11:44.839Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="UTSrhBWwxNaNh8SAJe32" version="14.2.7" type="github">
   <diagram id="3d2MYOL8zR_ViiIpR0bZ" name="Page-1">
     <mxGraphModel dx="3080" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -764,16 +764,16 @@
         <mxCell id="brHE4YqnveVC_KoyLmaR-221" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="1205" y="1322.5" width="540" height="77.5" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-222" value="redo log block" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-222" value="redo log group" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="1250" y="1335" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-223" value="redo log block" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-223" value="redo log group" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="1375" y="1336.25" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-224" value="redo log block" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-224" value="redo log group" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="1510" y="1336.25" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-225" value="redo log block" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-225" value="redo log group" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="1630" y="1336.25" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-226" value="redo log buffer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
@@ -834,7 +834,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="brHE4YqnveVC_KoyLmaR-240" value="7、prepare提交事务redo log到磁盘" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFB570;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-221" target="brHE4YqnveVC_KoyLmaR-166">
+        <mxCell id="brHE4YqnveVC_KoyLmaR-240" value="7、prepare提交事务redo log 组到磁盘" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFB570;" edge="1" parent="1" source="brHE4YqnveVC_KoyLmaR-221" target="brHE4YqnveVC_KoyLmaR-166">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1000" y="1390" as="sourcePoint" />
             <mxPoint x="1050" y="1340" as="targetPoint" />
@@ -1530,6 +1530,9 @@
         </mxCell>
         <mxCell id="brHE4YqnveVC_KoyLmaR-438" value="tx_id来保证redo和binlog可关联" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="917.5" y="1430" width="132.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="brHE4YqnveVC_KoyLmaR-439" value="拖时间的组提交" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="1235" y="1310" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
