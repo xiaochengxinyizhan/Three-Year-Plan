@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-12T08:31:07.134Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="8SwR6pPLVux5PmwNF4wM" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-12T08:38:52.379Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="Zve5EuVhoMCMGGb2VRKo" version="14.8.5" type="github">
   <diagram id="yA1kL-B6gW4pzDDukxj0" name="Page-1">
     <mxGraphModel dx="1773" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -239,7 +239,7 @@
             <mxPoint x="1980" y="-180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m_g_pHxch7K9zR3h8Tit-63" value="GC" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;sketch=1;" vertex="1" parent="1">
+        <mxCell id="m_g_pHxch7K9zR3h8Tit-63" value="GC垃圾回收器&lt;br&gt;(收集和删除未引用的对象，可以手动触发System.gc()但不保证一定执行)" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="2140" y="-230" width="250" height="120" as="geometry" />
         </mxCell>
         <mxCell id="m_g_pHxch7K9zR3h8Tit-65" value="探测分析器" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;sketch=1;" vertex="1" parent="1">
@@ -569,7 +569,7 @@
         <mxCell id="m_g_pHxch7K9zR3h8Tit-148" value="所有线程共享的数据区" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#60a917;align=center;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="3240" y="930" width="360" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="m_g_pHxch7K9zR3h8Tit-149" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#e3c800;align=center;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="m_g_pHxch7K9zR3h8Tit-149" value="JNI本地方法调用存储栈" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#e3c800;align=center;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="4190" y="440" width="370" height="120" as="geometry" />
         </mxCell>
         <mxCell id="m_g_pHxch7K9zR3h8Tit-150" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#e3c800;align=center;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
@@ -578,7 +578,7 @@
         <mxCell id="m_g_pHxch7K9zR3h8Tit-151" value="Native Method Stack 本地方法栈" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="4294" y="450" width="182" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="m_g_pHxch7K9zR3h8Tit-152" value="Programer Counter Register (PC 寄存器)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#e3c800;align=center;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="m_g_pHxch7K9zR3h8Tit-152" value="Programer Counter Register (PC 寄存器)&lt;br&gt;（每个线程单独维护自己的指令,每次指定执行完毕更新)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#e3c800;align=center;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="3750" y="800" width="810" height="90" as="geometry" />
         </mxCell>
         <mxCell id="m_g_pHxch7K9zR3h8Tit-155" value="线程隔离的数据区" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#e3c800;align=center;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
@@ -679,8 +679,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="m_g_pHxch7K9zR3h8Tit-174" value="VM stack虚拟机栈" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="3879.5" y="460" width="120" height="20" as="geometry" />
+        <mxCell id="m_g_pHxch7K9zR3h8Tit-174" value="VM stack虚拟机栈（Java方法调用存储栈）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="3879.5" y="460" width="140.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="m_g_pHxch7K9zR3h8Tit-175" value="栈帧" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=1;fillColor=#FFCE9F;gradientColor=#ffffff;align=center;" vertex="1" parent="1">
           <mxGeometry x="3815" y="502" width="250" height="36" as="geometry" />
@@ -728,7 +728,7 @@
         <mxCell id="m_g_pHxch7K9zR3h8Tit-186" value="本地方法库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;shadow=1;glass=0;sketch=0;fillColor=#a0522d;align=center;strokeColor=#6D1F00;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="3190" y="1210" width="1410" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="m_g_pHxch7K9zR3h8Tit-187" value="JNI本地方法接口" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fillColor=#e1d5e7;align=center;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="m_g_pHxch7K9zR3h8Tit-187" value="JNI本地方法接口（JNI与本地方法库交互，并提供执行引擎所需要的本机库）" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fillColor=#e1d5e7;align=center;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="3200" y="1080" width="1400" height="51" as="geometry" />
         </mxCell>
         <mxCell id="m_g_pHxch7K9zR3h8Tit-188" value="" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="m_g_pHxch7K9zR3h8Tit-187">
