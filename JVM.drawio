@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T05:46:31.557Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="U0i4W7LEq7LmkmljsG6o" version="14.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-15T05:47:27.219Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="VM_cHZsW1ApufRH32SFi" version="14.8.5" type="github" pages="2">
   <diagram id="yA1kL-B6gW4pzDDukxj0" name="Page-1">
     <mxGraphModel dx="2253" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="A-Gp9HGkpZJ0qFUNWFjN-16" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="330" width="1470" height="830" as="geometry" />
+          <mxGeometry x="720" y="330" width="1650" height="830" as="geometry" />
         </mxCell>
         <mxCell id="A-Gp9HGkpZJ0qFUNWFjN-102" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" vertex="1" parent="1">
           <mxGeometry x="1725" y="350" width="255" height="60" as="geometry" />
@@ -790,12 +790,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="m_g_pHxch7K9zR3h8Tit-191" value="" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=1;exitX=0.851;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="m_g_pHxch7K9zR3h8Tit-44" edge="1">
+        <mxCell id="m_g_pHxch7K9zR3h8Tit-191" value="" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=1;exitX=0.946;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="m_g_pHxch7K9zR3h8Tit-44" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2130" y="450" as="sourcePoint" />
             <mxPoint x="3880" y="1080" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2235" y="1030" />
+              <mxPoint x="2404" y="1030" />
               <mxPoint x="3880" y="1040" />
             </Array>
           </mxGeometry>
@@ -945,7 +945,7 @@
         <mxCell id="A-Gp9HGkpZJ0qFUNWFjN-15" value="1)老年代达到阈值,比如CMS的92%&lt;br&gt;2)ygc前,空间担保机制判断老年代空间小于ygc每次进入老年代平均对象的大小,先fullgc，再ygc&lt;br&gt;3)ygc以后对象S区存不下,老年代也放不下" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="3380" y="830" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="A-Gp9HGkpZJ0qFUNWFjN-17" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#000099;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.932;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="m_g_pHxch7K9zR3h8Tit-63" target="A-Gp9HGkpZJ0qFUNWFjN-16">
+        <mxCell id="A-Gp9HGkpZJ0qFUNWFjN-17" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#000099;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.83;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="m_g_pHxch7K9zR3h8Tit-63" target="A-Gp9HGkpZJ0qFUNWFjN-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1790" y="320" as="sourcePoint" />
             <mxPoint x="1840" y="270" as="targetPoint" />
