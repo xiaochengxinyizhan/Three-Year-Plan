@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T08:53:47.863Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="r70XcSSUntTf2ussl7hk" version="14.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-15T09:20:04.399Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="jStvKIMWZh5IlawbgDXS" version="14.8.5" type="github" pages="2">
   <diagram id="yA1kL-B6gW4pzDDukxj0" name="Page-1">
     <mxGraphModel dx="2253" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="m_g_pHxch7K9zR3h8Tit-134" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=1;align=left;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="3190" y="400" width="1410" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="A-Gp9HGkpZJ0qFUNWFjN-363" value="堆外内存" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2D7600;align=center;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2945" y="400" width="225" height="600" as="geometry" />
+        </mxCell>
         <mxCell id="A-Gp9HGkpZJ0qFUNWFjN-16" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="720" y="290" width="2190" height="1450" as="geometry" />
         </mxCell>
@@ -37,9 +43,6 @@
         <mxCell id="A-Gp9HGkpZJ0qFUNWFjN-49" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1050" y="600" width="130" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="m_g_pHxch7K9zR3h8Tit-134" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=1;align=left;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="3200" y="400" width="1400" height="590" as="geometry" />
-        </mxCell>
         <mxCell id="m_g_pHxch7K9zR3h8Tit-137" value="Heap堆空间" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#60a917;align=center;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="3220" y="590" width="420" height="390" as="geometry" />
         </mxCell>
@@ -50,7 +53,7 @@
           <mxGeometry x="3230" y="620" width="120" height="280" as="geometry" />
         </mxCell>
         <mxCell id="GTlcjRQjHf08xUHt5PCD-9" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="2922.5" y="556.96" width="240" height="80" as="geometry" />
+          <mxGeometry x="2926.25" y="1040" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="m_g_pHxch7K9zR3h8Tit-154" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#FFCE9F;gradientColor=#ffffff;align=center;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="3710" y="430" width="870" height="550" as="geometry" />
@@ -570,8 +573,8 @@
             <mxPoint x="3480" y="-260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m_g_pHxch7K9zR3h8Tit-135" value="运行时数据区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;" parent="1" vertex="1">
-          <mxGeometry x="3200" y="380" width="100" height="20" as="geometry" />
+        <mxCell id="m_g_pHxch7K9zR3h8Tit-135" value="&lt;b&gt;JVM运行时数据区-堆内存&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="3200" y="380" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="m_g_pHxch7K9zR3h8Tit-136" value="方法区/永久代" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#60a917;align=center;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="3220" y="430" width="420" height="120" as="geometry" />
@@ -851,7 +854,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GTlcjRQjHf08xUHt5PCD-8" value="Eden区满，ygc复制算法，从GC Roots追踪，标记存活对象，放入S0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2932.5" y="585" width="220" height="20" as="geometry" />
+          <mxGeometry x="2936.25" y="1067.04" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GTlcjRQjHf08xUHt5PCD-10" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#000099;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GTlcjRQjHf08xUHt5PCD-11" target="GTlcjRQjHf08xUHt5PCD-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -872,7 +875,7 @@
           <mxGeometry x="3310" y="740" width="20" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GTlcjRQjHf08xUHt5PCD-17" value="清理Eden区垃圾对象(STW)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="2922.5" y="715" width="227.5" height="80" as="geometry" />
+          <mxGeometry x="2932.5" y="1120" width="227.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GTlcjRQjHf08xUHt5PCD-18" value="清理回收" style="endArrow=classic;html=1;dashed=1;strokeColor=#000099;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.009;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GTlcjRQjHf08xUHt5PCD-12" target="GTlcjRQjHf08xUHt5PCD-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -907,7 +910,7 @@
           <mxGeometry x="3268" y="770" width="20" height="100" as="geometry" />
         </mxCell>
         <mxCell id="GTlcjRQjHf08xUHt5PCD-26" value="Eden区满,ygc复制算法,从GC Roots追踪，标记存活对象，复制到S1区，清理Eden区和S0区(STW)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="2922.5" y="830" width="227.5" height="80" as="geometry" />
+          <mxGeometry x="2928.75" y="1210" width="227.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GTlcjRQjHf08xUHt5PCD-27" value="复制回收" style="endArrow=classic;html=1;dashed=1;strokeColor=#000099;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.009;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GTlcjRQjHf08xUHt5PCD-19" target="GTlcjRQjHf08xUHt5PCD-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
