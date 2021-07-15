@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T09:20:04.399Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="jStvKIMWZh5IlawbgDXS" version="14.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-15T09:30:50.505Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="SjpTtVKHage3X5uNXdA9" version="14.8.5" type="github" pages="2">
   <diagram id="yA1kL-B6gW4pzDDukxj0" name="Page-1">
     <mxGraphModel dx="2253" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1129,7 +1129,7 @@
             <mxPoint x="1250" y="990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A-Gp9HGkpZJ0qFUNWFjN-65" value="无影响,用来回收清理机制" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A-Gp9HGkpZJ0qFUNWFjN-64">
+        <mxCell id="A-Gp9HGkpZJ0qFUNWFjN-65" value="需要clear()，或者对象不可达，用来回收清理机制" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A-Gp9HGkpZJ0qFUNWFjN-64">
           <mxGeometry x="0.076" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
@@ -2197,6 +2197,22 @@
             <Array as="points">
               <mxPoint x="2098" y="1718" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A-Gp9HGkpZJ0qFUNWFjN-365" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.13;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000099;" edge="1" parent="1" source="A-Gp9HGkpZJ0qFUNWFjN-58" target="A-Gp9HGkpZJ0qFUNWFjN-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="850" as="sourcePoint" />
+            <mxPoint x="1420" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1560" y="850" />
+              <mxPoint x="1560" y="1140" />
+              <mxPoint x="841" y="1140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A-Gp9HGkpZJ0qFUNWFjN-366" value="无clear()的情况下，对象依然可达" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A-Gp9HGkpZJ0qFUNWFjN-365">
+          <mxGeometry x="0.025" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
