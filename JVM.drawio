@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T08:14:27.223Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="6oP-GhRk7Tbe4k-176FU" version="14.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-15T08:15:06.807Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="BTb3RgEgfezFd-VUSKDE" version="14.8.5" type="github" pages="2">
   <diagram id="yA1kL-B6gW4pzDDukxj0" name="Page-1">
     <mxGraphModel dx="2253" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -960,10 +960,10 @@
         <mxCell id="A-Gp9HGkpZJ0qFUNWFjN-15" value="1)老年代达到阈值,比如CMS的92%&lt;br&gt;2)ygc前,空间担保机制判断老年代空间小于ygc每次进入老年代平均对象的大小,先fullgc，再ygc&lt;br&gt;3)ygc以后对象S区存不下,老年代也放不下" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="3380" y="830" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="A-Gp9HGkpZJ0qFUNWFjN-17" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#000099;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.83;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="m_g_pHxch7K9zR3h8Tit-63" target="A-Gp9HGkpZJ0qFUNWFjN-16">
+        <mxCell id="A-Gp9HGkpZJ0qFUNWFjN-17" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#000099;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m_g_pHxch7K9zR3h8Tit-63">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1790" y="320" as="sourcePoint" />
-            <mxPoint x="1840" y="270" as="targetPoint" />
+            <mxPoint x="2090" y="329" as="targetPoint" />
             <Array as="points">
               <mxPoint x="2090" y="-170" />
             </Array>
