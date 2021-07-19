@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-19T14:45:27.016Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="t2UR1lSvEneRTLjQUdGo" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-19T15:43:07.052Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="VZIOGlFTth8jsR1HiI32" version="14.8.6" type="github">
   <diagram id="KB1vcJfw8zj7qNLRG0oM" name="Page-1">
     <mxGraphModel dx="946" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -317,12 +317,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Qtu0secbyMmHB0UshVdj-91" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="940" y="-40" width="520" height="370" as="geometry" />
+          <mxGeometry x="900" y="-40" width="520" height="370" as="geometry" />
         </mxCell>
         <mxCell id="Qtu0secbyMmHB0UshVdj-92" value="主内存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="980" y="280" width="170" height="35" as="geometry" />
+          <mxGeometry x="980" y="280" width="430" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="Qtu0secbyMmHB0UshVdj-93" value="处理器0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Qtu0secbyMmHB0UshVdj-93" value="CPU处理器0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="990" y="90" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Qtu0secbyMmHB0UshVdj-94" value="总线" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -384,7 +384,10 @@
         <mxCell id="Qtu0secbyMmHB0UshVdj-103" value="&lt;font color=&quot;#ff0000&quot;&gt;refresh机制&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1110" y="80" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Qtu0secbyMmHB0UshVdj-104" value="高速缓存器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Qtu0secbyMmHB0UshVdj-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qtu0secbyMmHB0UshVdj-104" target="Qtu0secbyMmHB0UshVdj-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtu0secbyMmHB0UshVdj-104" value="高速缓存器&lt;br&gt;CPU Cache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1070" y="170" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Qtu0secbyMmHB0UshVdj-105" value="写缓存器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -396,7 +399,7 @@
             <mxPoint x="980" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qtu0secbyMmHB0UshVdj-107" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Qtu0secbyMmHB0UshVdj-104">
+        <mxCell id="Qtu0secbyMmHB0UshVdj-107" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Qtu0secbyMmHB0UshVdj-105" target="Qtu0secbyMmHB0UshVdj-104">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1030" y="120" as="sourcePoint" />
             <mxPoint x="1140" y="120" as="targetPoint" />
@@ -406,6 +409,115 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1170" y="180" as="sourcePoint" />
             <mxPoint x="1110" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtu0secbyMmHB0UshVdj-109" value="&lt;font color=&quot;#ff0000&quot;&gt;flush机制&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="215" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtu0secbyMmHB0UshVdj-110" value="高速缓存器&lt;br&gt;CPU Cache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="170" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtu0secbyMmHB0UshVdj-112" value="&lt;font color=&quot;#ff0000&quot;&gt;flush机制&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="150" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtu0secbyMmHB0UshVdj-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qtu0secbyMmHB0UshVdj-113" target="Qtu0secbyMmHB0UshVdj-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtu0secbyMmHB0UshVdj-113" value="写缓存器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="170" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtu0secbyMmHB0UshVdj-115" value="CPU处理器1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtu0secbyMmHB0UshVdj-116" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Qtu0secbyMmHB0UshVdj-115" target="Qtu0secbyMmHB0UshVdj-113">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1300" y="70" as="sourcePoint" />
+            <mxPoint x="1350" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtu0secbyMmHB0UshVdj-117" value="" style="endArrow=classic;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qtu0secbyMmHB0UshVdj-115" target="Qtu0secbyMmHB0UshVdj-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1250" y="70" as="sourcePoint" />
+            <mxPoint x="1300" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtu0secbyMmHB0UshVdj-118" value="invalid信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Qtu0secbyMmHB0UshVdj-117">
+          <mxGeometry x="0.4348" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtu0secbyMmHB0UshVdj-119" value="read" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Qtu0secbyMmHB0UshVdj-115" target="Qtu0secbyMmHB0UshVdj-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="120" as="sourcePoint" />
+            <mxPoint x="1290" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1330" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtu0secbyMmHB0UshVdj-120" value="read返回" style="endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Qtu0secbyMmHB0UshVdj-115">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="40" as="sourcePoint" />
+            <mxPoint x="1310" y="-100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1290" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtu0secbyMmHB0UshVdj-121" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Qtu0secbyMmHB0UshVdj-115">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1170" y="40" as="sourcePoint" />
+            <mxPoint x="1250" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtu0secbyMmHB0UshVdj-122" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1249.5" y="200" as="sourcePoint" />
+            <mxPoint x="1249.5" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtu0secbyMmHB0UshVdj-123" value="重排序处理器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="40" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtu0secbyMmHB0UshVdj-124" value="寄存器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtu0secbyMmHB0UshVdj-125" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qtu0secbyMmHB0UshVdj-93" target="Qtu0secbyMmHB0UshVdj-124">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="100" as="sourcePoint" />
+            <mxPoint x="830" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtu0secbyMmHB0UshVdj-126" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Qtu0secbyMmHB0UshVdj-93" target="Qtu0secbyMmHB0UshVdj-123">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="110" as="sourcePoint" />
+            <mxPoint x="960" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtu0secbyMmHB0UshVdj-127" value="无效队列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtu0secbyMmHB0UshVdj-128" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Qtu0secbyMmHB0UshVdj-93" target="Qtu0secbyMmHB0UshVdj-127">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="100" as="sourcePoint" />
+            <mxPoint x="780" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1030" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtu0secbyMmHB0UshVdj-129" value="invalid信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Qtu0secbyMmHB0UshVdj-128">
+          <mxGeometry x="-0.0609" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
