@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T06:25:26.824Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="zhTnw4ZMwQPylalhJ-T6" version="14.8.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-20T06:30:41.110Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="dlhYbVXnW6VsIW8EZonq" version="14.8.6" type="github" pages="2">
   <diagram id="KB1vcJfw8zj7qNLRG0oM" name="Page-1">
     <mxGraphModel dx="946" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1345,8 +1345,8 @@
             <mxPoint x="510" y="-540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fm_gpZ8SLg755O0Aljr6-199" value="flag利用MESI协议来保证读写原子性" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Fm_gpZ8SLg755O0Aljr6-1">
-          <mxGeometry x="713" y="-500" width="130" height="30" as="geometry" />
+        <mxCell id="Fm_gpZ8SLg755O0Aljr6-199" value="flag利用MESI缓存一致性协议来保证读写原子性" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Fm_gpZ8SLg755O0Aljr6-1">
+          <mxGeometry x="713" y="-500" width="267" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Fm_gpZ8SLg755O0Aljr6-200" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Fm_gpZ8SLg755O0Aljr6-1" source="Fm_gpZ8SLg755O0Aljr6-196" target="Fm_gpZ8SLg755O0Aljr6-199">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1390,8 +1390,8 @@
         <mxCell id="Fm_gpZ8SLg755O0Aljr6-212" value="CPU-1高速缓存器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Fm_gpZ8SLg755O0Aljr6-1">
           <mxGeometry x="772" y="-860" width="103" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Fm_gpZ8SLg755O0Aljr6-215" value="工作内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Fm_gpZ8SLg755O0Aljr6-1">
-          <mxGeometry x="281" y="-620" width="99" height="20" as="geometry" />
+        <mxCell id="Fm_gpZ8SLg755O0Aljr6-215" value="线程分配的工作内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Fm_gpZ8SLg755O0Aljr6-1">
+          <mxGeometry x="281" y="-620" width="129" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Fm_gpZ8SLg755O0Aljr6-216" value="工作内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Fm_gpZ8SLg755O0Aljr6-1">
           <mxGeometry x="801" y="-620" width="99" height="20" as="geometry" />
