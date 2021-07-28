@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-28T08:17:05.642Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="4_bCKXRG64k-hagmWydF" version="14.9.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-28T08:19:15.616Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="K52cO9hElBdz0ADZGAU5" version="14.9.2" type="github" pages="2">
   <diagram id="KB1vcJfw8zj7qNLRG0oM" name="Page-1">
     <mxGraphModel dx="1630" dy="2267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -278,7 +278,7 @@
               <mxPoint x="1100" y="708" />
               <mxPoint x="1100" y="823" />
               <mxPoint x="1160" y="823" />
-              <mxPoint x="1160" y="1143" />
+              <mxPoint x="1160" y="1880" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -362,11 +362,11 @@
         <mxCell id="Qtu0secbyMmHB0UshVdj-83" value="JMM内存架构" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="750" y="420" width="110" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="Qtu0secbyMmHB0UshVdj-85" value="COW" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1150" y="1650" width="110" height="45" as="geometry" />
+        <mxCell id="Qtu0secbyMmHB0UshVdj-85" value="COW" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="1857" width="110" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="Qtu0secbyMmHB0UshVdj-88" value="执行器" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="1764.5" width="110" height="45" as="geometry" />
+        <mxCell id="Qtu0secbyMmHB0UshVdj-88" value="执行器" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1270" y="2080" width="110" height="45" as="geometry" />
         </mxCell>
         <mxCell id="Qtu0secbyMmHB0UshVdj-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Qtu0secbyMmHB0UshVdj-66" target="Qtu0secbyMmHB0UshVdj-88" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -374,7 +374,7 @@
             <mxPoint x="1270" y="832.5" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1100" y="708" />
-              <mxPoint x="1100" y="1285" />
+              <mxPoint x="1100" y="2103" />
             </Array>
           </mxGeometry>
         </mxCell>
